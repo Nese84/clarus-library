@@ -1,16 +1,26 @@
-import React from 'react'
+import React from "react";
+import {
+  FormContainer,
+  Header,
+  LoginContainer,
+  StyledButton,
+  StyledForm,
+  StyledInput,
+} from "./Login.style";
 
 const Login = () => {
-  return 
+  return (
     <LoginContainer>
       <FormContainer>
-        <StyledForm>
-          <tyledInput typr="text" placeholder="Username"/>
-          <tyledInput typr="password" placeholder="Password"/>
-         </StyledForm>
+        <Header>Login Here</Header>
+        <StyledForm >
+          <StyledInput type="text" placeholder="Username" />
+          <StyledInput type="password" placeholder="Password" />
+          <StyledButton type="submit">Login</StyledButton>
+        </StyledForm>
       </FormContainer>
     </LoginContainer>
-  
-}
+  );
+};
 
-export default Login
+export default Login;
