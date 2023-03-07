@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Nav } from "./Navbar.style";
 
 const Navbar = () => {
-  return (
-    <div>Navbar</div>
-  )
-}
+  return 
+  <Nav>
+    <Logo to"/"
 
-export default Navbar
+  </Nav>;
+};
+
+export default Navbar;
