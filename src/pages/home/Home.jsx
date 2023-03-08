@@ -39,7 +39,7 @@ const Home = () => {
       ) : (
         <MainContainer wrap="wrap">
           {
-            myData.map((item)=> <Card key={item.id} item={item }/>)
+            myData.map((item)=> <Card key={item.id} item={item} />)
           }
         </MainContainer>
       )}
